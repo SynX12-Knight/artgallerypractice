@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+.heroes .bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+}
+
+.artifica {
+  font-family: 'Artifika', serif;
+  font-weight: 400;
+  color: #faf0e6;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+}
